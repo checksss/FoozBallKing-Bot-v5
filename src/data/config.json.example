@@ -1,0 +1,10 @@
+{
+    "prefix": "prefix",
+    "ownerID": ["admin id 1", "admin id 2"],
+    
+    "token": "bot token here",
+
+	"youtube_key": "yt key here",
+	"osu": "osu api key here",
+	"dbl": "dbl api key here"
+}
