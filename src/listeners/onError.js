@@ -10,7 +10,8 @@ class ErrorListener extends Listener {
     }
 
     async exec(error) {
-        this.client.logger.err(`Errored on ${moment().format('MMMM Do YYYY')} at ${moment().format('h:mm:ss a')}`)
+        this.client.logger.error(`Errored on ${moment().format('MMMM Do YYYY')} at ${moment().format('h:mm:ss a')}`)
+        console.error(error)
     }
 }
 
